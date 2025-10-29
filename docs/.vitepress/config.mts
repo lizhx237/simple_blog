@@ -4,19 +4,22 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "My Simple Blog",
   description: "My Blog Built By VitePress",
+  markdown: {
+    math: true
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'About', link: '/about-me' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Notes',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '关于凸优化', link: '/optimization' },
+          { text: '数图', link: '/image-processing' }
         ]
       }
     ],

@@ -3,23 +3,18 @@
 layout: home
 
 hero:
-  name: "My Simple Blog"
-  text: "My Blog Built By VitePress"
-  tagline: My great project tagline
+  name: "Simple Site"
+  text: "Notes"
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 关于凸优化
+      link: /optimization
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 数图
+      link: /image-processing
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: CSE
+    details: SYSU
 ---
 
