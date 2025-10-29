@@ -4,6 +4,8 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "My Simple Blog",
   description: "My Blog Built By VitePress",
+  // 为 GitHub Pages 项目站点设置 base（注意首尾都要有斜杠）
+  base: '/simple_blog/',
   markdown: {
     math: true
   },
